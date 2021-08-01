@@ -6,12 +6,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "relay": "relay-compiler"
+    "relay": "relay-compiler",
+    "relay-inline": "relay-compiler --src ./src --schema ../../schema.graphql --language typescript"
   },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-relay": "^11.0.2",
+    "react-relay-network-modern": "^6.0.0",
     "relay-runtime": "^11.0.2"
   },
   "devDependencies": {

@@ -9,7 +9,6 @@ module.exports = /** @type {import('relay-compiler/bin/RelayCompilerMain').Confi
   language: 'typescript',
   customScalars: {
     ID: 'String',
-    DateTime: 'String',
-    CurrencyCode: 'String',
+    DateTime: 'String'
   },
 };

@@ -798,6 +798,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-relay: ^11.0.2
+    react-relay-network-modern: ^6.0.0
     relay-compiler: ^11.0.2
     relay-compiler-language-typescript: "relay-tools/relay-compiler-language-typescript#feat-es-module-support"
     relay-config: ^11.0.2
@@ -1240,6 +1241,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.0.0":
+  version: 3.16.0
+  resolution: "core-js@npm:3.16.0"
+  checksum: e215cf057fadd86e5386d8042c1bd0ddab1c7811d8f66d272c356ba9bae34c0897c3f5a80d19f93fd74cff832652354a0feb0c817234a066ae9177e28c6d865a
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:~1.0.0":
   version: 1.0.2
   resolution: "core-util-is@npm:1.0.2"
@@ -1426,6 +1434,13 @@ __metadata:
   version: 2.0.2
   resolution: "estree-walker@npm:2.0.2"
   checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
+  languageName: node
+  linkType: hard
+
+"extract-files@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "extract-files@npm:9.0.0"
+  checksum: c31781d090f8d8f62cc541f1023b39ea863f24bd6fb3d4011922d71cbded70cef8191f2b70b43ec6cb5c5907cdad1dc5e9f29f78228936c10adc239091d8ab64
   languageName: node
   linkType: hard
 
@@ -2329,6 +2344,18 @@ fsevents@~2.3.2:
   version: 0.10.0
   resolution: "react-refresh@npm:0.10.0"
   checksum: 089b8ea9ad8038046c0467a2476595eedab9e30620f50daa50e844c81d626de43a44a6a628256ae58e68885d5fe1d7e05074ddfd99ece3808b013d043f0c6030
+  languageName: node
+  linkType: hard
+
+"react-relay-network-modern@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "react-relay-network-modern@npm:6.0.0"
+  dependencies:
+    core-js: ^3.0.0
+    extract-files: ^9.0.0
+  peerDependencies:
+    relay-runtime: ">=1.4.0"
+  checksum: ea6da6d2609f70338f4d4de76a796effb025053ea3a16e71bea64953cad517bf3df7ef3ff10c471f9411fcac20a9515ff05ab2e9aa1a7fc53df1d50bee2b47d9
   languageName: node
   linkType: hard
 
