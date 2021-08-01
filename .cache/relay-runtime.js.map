@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["dep:relay-runtime"],
-  "sourcesContent": ["export default require(\"./.yarn/cache/relay-runtime-npm-11.0.2-c3b3a84bb1-aa6507f4cc.zip/node_modules/relay-runtime/index.js\");"],
-  "mappings": ";;;;;;;;;AAAA;AAAA,IAAO,wBAAQ;",
-  "names": []
-}
