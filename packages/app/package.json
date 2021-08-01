@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "relay": "relay-compiler",
-    "relay-inline": "relay-compiler --src ./src --schema ../../schema.graphql --language typescript"
+    "relay-cli-args": "relay-compiler --src ./src --schema ../../schema.graphql --language typescript"
   },
   "dependencies": {
     "react": "^17.0.2",
