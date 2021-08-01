@@ -1,0 +1,21 @@
+{
+  "hash": "a178e676",
+  "browserHash": "d2eb8f6f",
+  "optimized": {
+    "react": {
+      "file": "/Users/erikmuller/Downloads/yarn3-relay-config/packages/app/.cache/react.js",
+      "src": "/Users/erikmuller/Downloads/yarn3-relay-config/.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip/node_modules/react/index.js",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "file": "/Users/erikmuller/Downloads/yarn3-relay-config/packages/app/.cache/react-dom.js",
+      "src": "/Users/erikmuller/Downloads/yarn3-relay-config/.yarn/__virtual__/react-dom-virtual-0aa30ad49a/0/cache/react-dom-npm-17.0.2-f551215af1-1c1eaa3bca.zip/node_modules/react-dom/index.js",
+      "needsInterop": true
+    },
+    "babel-plugin-relay/macro": {
+      "file": "/Users/erikmuller/Downloads/yarn3-relay-config/packages/app/.cache/babel-plugin-relay_macro.js",
+      "src": "/Users/erikmuller/Downloads/yarn3-relay-config/.yarn/__virtual__/babel-plugin-relay-virtual-6749afe718/0/cache/babel-plugin-relay-npm-11.0.2-a488ff31c0-103e7e56e2.zip/node_modules/babel-plugin-relay/macro.js",
+      "needsInterop": true
+    }
+  }
+}

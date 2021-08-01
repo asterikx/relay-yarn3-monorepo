@@ -1,0 +1,14 @@
+{
+  "name": "yarn3-relay-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.0.0",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,24 @@
+scalar DateTime
+
+interface Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime
+}
+
+schema {
+  query: Query
+}
+
+type Query {
+  todo(id: Int!): Todo
+  allTodos: [Todo!]!
+}
+
+type Todo implements Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime
+  text: String
+  done: Boolean
+}
